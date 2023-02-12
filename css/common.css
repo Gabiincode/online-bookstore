@@ -1,0 +1,229 @@
+body {
+    background-color: #fdd698;
+} 
+
+.topper {
+    height: 52px;
+    background-color: #f77a33;
+}
+
+.topper .wrapper{
+    height: 52px;
+    background-color: #f77a33;
+    text-align: center;
+}
+
+.topper .wrapper span{
+    line-height: 52px;
+    color: white;
+    font-size: 14px;
+}
+
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fefefe;
+}
+
+.header{
+    height: 110px;
+    /* background-color: pink; */
+    margin: 0 auto;
+    padding-top: 15px;
+    
+}
+
+h1{
+    float: left;
+    padding-left: 30px;
+}
+
+.search{   
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #df7732;
+    border-radius: 5px; 
+}
+
+.search input{
+    float: left;
+    padding-left: 20px;
+    /* 因为左右加一起的宽度尺寸要小于等于410 */
+    width: 260px;
+    height: 35px;
+    border: 0;
+
+}
+/* placeholder的样式,注意有俩冒号 */
+.search input::placeholder{
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+.search button{
+    float: left; 
+    width:35px;
+    height: 35px;
+    border:0;
+} 
+
+.header-dropdown {
+    float: left;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  
+  .categories-button {
+    background-color: var(--primary-color-dark);
+    margin-top: 0.25em;
+  }
+  
+  .header-dropdown ul {
+    background-color: white;
+    color: black;
+    display: none;
+  }
+  
+  .header-dropdown li {
+    padding: 0.25em 0.5em;
+  }
+  
+  .header-dropdown a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .header-dropdown li:hover {
+    background: #fdd698;
+  }
+  
+.header-dropdown:hover ul {
+    display: block;
+    min-width: 8em;
+    z-index: 1;
+    cursor: pointer;
+  }
+ 
+.user img{
+    float: left;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+
+
+.cart {
+    float: left;
+    position: relative;
+   margin-left:40px;  
+   margin-top: 25px;
+
+}
+
+.cart span.itemCount{
+    position: absolute;
+    right: -28px;
+    top: 5px;
+    font-size: 18px;
+    text-align: center;
+    /* 水平居中 */
+    line-height: 18px;
+    /* 垂直居中 */
+    width: 20px;
+	height: 20px;
+    color: black;
+}
+
+
+.nav{
+    height: 84px;
+    padding-left: 70px;
+    padding-right: 26px; 
+    line-height: 60px;
+    text-align: center;  
+    
+}
+
+.nav ul{
+    float: left;
+    margin-left: 200px;   
+    margin-right: 200px;   
+    height: 70px; 
+    
+} 
+
+.nav ul li{
+    float: left;
+    
+} 
+.nav li a{
+    border-left: 2px solid #e4b364;  
+    /* 加在a 就可以自动生成6条小线线,而且线的高度和字相等. 相反的,如果加在ul li那里只会有一条线线,而且很长,是整个li的高度  */
+    /* border-bottom: 2px solid #e4b364; */
+    padding: 0 30px;
+    color:#050505;
+    font-size: 18px; 
+   
+} 
+
+.nav li .first{
+    border-left: none;  
+}   
+
+.nav li b a{
+    padding-right: 10px;
+}
+
+.nav li img{
+    padding-bottom: 10px;
+}   
+
+
+
+.footer{
+    height: 50px;
+    background-color: #d8d8d8;
+}
+
+.footer .wrapper{
+    height: 50px;
+    background-color: #d8d8d8;
+    text-align: center;
+}
+
+.footer .wrapper span.CopyRight{
+    float: left;
+    padding-left: 70px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.footer .wrapper span.follow{
+    float: right;
+    padding-right: 70px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+
+.footer .wrapper span.contact{
+    font-size: 14px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
